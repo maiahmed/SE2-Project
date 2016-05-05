@@ -2,12 +2,12 @@ package com.models.com.models;
 
 import java.util.Vector;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
+//import org.testng.Assert;
+//import org.testng.annotations.Test;
 
 import com.models.UserModel;
 
-public class UserModelTest {
+/*public class UserModelTest {
 	
 	int id = 6;
 	Vector<String> res;
@@ -29,3 +29,4 @@ public class UserModelTest {
 //    throw new RuntimeException("Test not implemented");
 //  }
 }
+*/
