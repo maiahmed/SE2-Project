@@ -71,7 +71,7 @@ public class Follower {
 
 			stmt.setInt(1, id1);
 			stmt.setInt(2, id2);
-			//ResultSet rs=stmt.executeUpdate();
+		    stmt.executeUpdate();
 			ResultSet rs = stmt.getGeneratedKeys();
 			if (rs.next()) { 
 				//System.out.println("hereeeeeeeeeeee");
@@ -88,7 +88,7 @@ public class Follower {
 		}
 		return null;
 	}
-
+    
 	public static Vector<UserModel> GetFollowers(int userID) {
 		try {
 			Connection conn = DBConnection.getActiveConnection();
